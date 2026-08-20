@@ -438,4 +438,4 @@ def should_invoke_agent(candidate: dict, local_model_result: dict) -> bool:
 
 ---
 
-[← الجزء الحادي والثلاثون](./part-31-teacher-model.md) · [الفهرس](./README.md)
+[← الجزء الحادي والثلاثون](./part-31-teacher-model.md) · [الفهرس](./README.md) · [الجزء الثالث والثلاثون →](./part-33-dynamic-verification-lab.md)
