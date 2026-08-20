@@ -304,4 +304,4 @@ if __name__ == "__main__":
 
 ---
 
-[← الجزء الثلاثون](./part-30-data-sources-deep-dive.md) · [الفهرس](./README.md)
+[← الجزء الثلاثون](./part-30-data-sources-deep-dive.md) · [الفهرس](./README.md) · [الجزء الثاني والثلاثون →](./part-32-agent-architecture.md)
