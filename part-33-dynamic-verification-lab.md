@@ -423,4 +423,4 @@ def promote_lab_result(finding: dict, lab_result) -> dict:
 
 ---
 
-[← الجزء الثاني والثلاثون](./part-32-agent-architecture.md) · [الفهرس](./README.md)
+[← الجزء الثاني والثلاثون](./part-32-agent-architecture.md) · [الفهرس](./README.md) · [الجزء الرابع والثلاثون →](./part-34-confirmation-tiers-containment.md)
