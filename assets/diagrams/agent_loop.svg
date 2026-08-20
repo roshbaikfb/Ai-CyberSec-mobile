@@ -1,0 +1,32 @@
+<svg viewBox="0 0 640 644" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+<rect x="0" y="0" width="640" height="644" fill="white"/>
+<text x="320" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1F2937">Agent Loop with Tools (Chapter 62-64)</text>
+<rect x="180" y="64" width="280" height="64" rx="10" fill="#EAF1FB" stroke="#2F5496" stroke-width="2"/>
+<text x="320" y="91" text-anchor="middle" font-size="14.5" font-weight="600" fill="#1F2937">High-risk Candidate</text>
+<text x="320" y="111" text-anchor="middle" font-size="11.5" fill="#4B5563">passed should_invoke_agent()</text>
+<line x1="320" y1="128" x2="320" y2="152" stroke="#6B7280" stroke-width="2"/>
+<polygon points="314,152 326,152 320,160 " fill="#6B7280"/>
+<rect x="180" y="160" width="280" height="64" rx="10" fill="#EAF1FB" stroke="#2F5496" stroke-width="2"/>
+<text x="320" y="187" text-anchor="middle" font-size="14.5" font-weight="600" fill="#1F2937">Teacher model receives Candidate</text>
+<text x="320" y="207" text-anchor="middle" font-size="11.5" fill="#4B5563">Claude Opus / DeepSeek V4 Pro</text>
+<line x1="320" y1="224" x2="320" y2="248" stroke="#6B7280" stroke-width="2"/>
+<polygon points="314,248 326,248 320,256 " fill="#6B7280"/>
+<rect x="180" y="256" width="280" height="64" rx="10" fill="#FFF3CD" stroke="#8A6D00" stroke-width="2"/>
+<text x="320" y="283" text-anchor="middle" font-size="14.5" font-weight="600" fill="#1F2937">Model requests a tool?</text>
+<text x="320" y="303" text-anchor="middle" font-size="11.5" fill="#4B5563">retrieve_definition, trace_variable, etc.</text>
+<line x1="320" y1="320" x2="320" y2="344" stroke="#6B7280" stroke-width="2"/>
+<polygon points="314,344 326,344 320,352 " fill="#6B7280"/>
+<rect x="180" y="352" width="280" height="64" rx="10" fill="#EAF1FB" stroke="#2F5496" stroke-width="2"/>
+<text x="320" y="379" text-anchor="middle" font-size="14.5" font-weight="600" fill="#1F2937">Tool executes, result returned</text>
+<text x="320" y="399" text-anchor="middle" font-size="11.5" fill="#4B5563">counts against max_tool_calls / max_cost</text>
+<line x1="320" y1="416" x2="320" y2="440" stroke="#6B7280" stroke-width="2"/>
+<polygon points="314,440 326,440 320,448 " fill="#6B7280"/>
+<rect x="180" y="448" width="280" height="64" rx="10" fill="#FBEAEA" stroke="#B23A3A" stroke-width="2"/>
+<text x="320" y="475" text-anchor="middle" font-size="14.5" font-weight="600" fill="#1F2937">Loop until limit or answer</text>
+<text x="320" y="495" text-anchor="middle" font-size="11.5" fill="#4B5563">max 8 calls, $0.50, 120s -- Chapter 64.1</text>
+<line x1="320" y1="512" x2="320" y2="536" stroke="#6B7280" stroke-width="2"/>
+<polygon points="314,536 326,536 320,544 " fill="#6B7280"/>
+<rect x="180" y="544" width="280" height="64" rx="10" fill="#EAF7EE" stroke="#2E7D32" stroke-width="2"/>
+<text x="320" y="571" text-anchor="middle" font-size="14.5" font-weight="600" fill="#1F2937">Final Finding (JSON)</text>
+<text x="320" y="591" text-anchor="middle" font-size="11.5" fill="#4B5563">or stopped_reason if a limit was hit</text>
+</svg>

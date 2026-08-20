@@ -244,4 +244,4 @@ def evaluate_request(host: str, method: str, path: str) -> ProxyDecision:
 
 ---
 
-[← الجزء الثالث والثلاثون](./part-33-dynamic-verification-lab.md) · [الفهرس](./README.md)
+[← الجزء الثالث والثلاثون](./part-33-dynamic-verification-lab.md) · [الفهرس](./README.md) · [الجزء الخامس والثلاثون →](./part-35-visual-companion.md)

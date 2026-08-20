@@ -1,0 +1,23 @@
+<svg viewBox="0 0 852 294" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+<rect x="0" y="0" width="852" height="294" fill="white"/>
+<text x="426" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#1F2937">Candidate Generation -- 4 Rules (Chapter 22)</text>
+<rect x="336" y="64" width="180" height="64" rx="10" fill="#F1EAFB" stroke="#6B3FA0" stroke-width="2"/>
+<text x="426" y="89" text-anchor="middle" font-size="14" font-weight="700" fill="#1F2937">SecurityFacts</text>
+<text x="426" y="107" text-anchor="middle" font-size="10.5" fill="#4B5563">one per method</text>
+<line x1="426" y1="128" x2="120" y2="154" stroke="#9CA3AF" stroke-width="1.5"/>
+<rect x="30" y="160" width="180" height="64" rx="9" fill="#FBEAEA" stroke="#B23A3A" stroke-width="2"/>
+<text x="120" y="184" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1F2937">Sink w/o any check</text>
+<text x="120" y="201" text-anchor="middle" font-size="10" fill="#4B5563">score 9.0</text>
+<line x1="426" y1="128" x2="324" y2="154" stroke="#9CA3AF" stroke-width="1.5"/>
+<rect x="234" y="160" width="180" height="64" rx="9" fill="#FFF3CD" stroke="#8A6D00" stroke-width="2"/>
+<text x="324" y="184" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1F2937">Cross-user gap</text>
+<text x="324" y="201" text-anchor="middle" font-size="10" fill="#4B5563">score 8.0</text>
+<line x1="426" y1="128" x2="528" y2="154" stroke="#9CA3AF" stroke-width="1.5"/>
+<rect x="438" y="160" width="180" height="64" rx="9" fill="#FFF3CD" stroke="#8A6D00" stroke-width="2"/>
+<text x="528" y="184" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1F2937">Package ownership</text>
+<text x="528" y="201" text-anchor="middle" font-size="10" fill="#4B5563">score 6.0</text>
+<line x1="426" y1="128" x2="732" y2="154" stroke="#9CA3AF" stroke-width="1.5"/>
+<rect x="642" y="160" width="180" height="64" rx="9" fill="#EAF1FB" stroke="#2F5496" stroke-width="2"/>
+<text x="732" y="184" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1F2937">Identity transition</text>
+<text x="732" y="201" text-anchor="middle" font-size="10" fill="#4B5563">ordering unclear -- score 4.0</text>
+</svg>
